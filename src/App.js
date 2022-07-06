@@ -49,8 +49,8 @@ function App() {
               <h5 className='mt-3'>completed by 21 learners</h5>
               <div className='mt-4'>
                 <button type='button' className='btn btn-primary rounded-pill me-5'>See Class Schedule <MdArrowForwardIos /></button>
-                <span className='fs-5 text-primary fw-bold me-5'><FiHeart className='me-2' />Save</span>
-                <span className='fs-5 text-primary fw-bold'><TiArrowForwardOutline className='me-2' />Share</span>
+                <button type='button' className='btn btn-link text-decoration-none text-primary fw-bold me-5'><FiHeart className='fs-5 me-2' />Save</button>
+                <button type='button' className='btn btn-link text-decoration-none text-primary fw-bold'><TiArrowForwardOutline className='fs-5 me-2' />Share</button>
               </div>
             </div>
           </div>
