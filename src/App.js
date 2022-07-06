@@ -6,6 +6,8 @@ import { BsStarFill } from 'react-icons/bs';
 import { MdArrowForwardIos } from 'react-icons/md';
 import { FiHeart } from 'react-icons/fi';
 import { TiArrowForwardOutline } from 'react-icons/ti';
+import { AiOutlineQuestionCircle } from 'react-icons/ai';
+
 
 function App() {
   return (
@@ -16,7 +18,7 @@ function App() {
       <div className='my-5'>
         <h1 className="fw-bold">Summer Art Camp! 5 Days of Artists and Painting Monet,
           <br /> Van Gogh, Matisse, & More</h1>
-        <small className='text-secondary'>Multi-Day Course</small>
+        <small className='text-secondary fs-6 fw-bold'>Multi-Day Course<AiOutlineQuestionCircle className='ms-2' /></small>
       </div>
       <div className="row">
         <div className='col-md-6'>
@@ -37,7 +39,7 @@ function App() {
               <BsStarFill className='text-warning' />
               <BsStarFill className='text-warning' />
               <BsStarFill className='text-warning' />
-              <span className='ms-2'>467 total reviews for this teacher</span>
+              <span className='ms-2 text-secondary'>467 total reviews for this teacher</span>
             </div>
             <div>
               <BsStarFill className='text-warning' />
@@ -45,7 +47,7 @@ function App() {
               <BsStarFill className='text-warning' />
               <BsStarFill className='text-warning' />
               <BsStarFill className='text-warning' />
-              <span className='ms-2'>5 reviews for this class</span>
+              <span className='ms-2 text-secondary'>5 reviews for this class</span>
               <h5 className='mt-3'>completed by 21 learners</h5>
               <div className='mt-4'>
                 <button type='button' className='btn btn-primary rounded-pill me-5'>See Class Schedule <MdArrowForwardIos /></button>
