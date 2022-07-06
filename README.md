@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Kaholas Frontend Assignment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Live app in vercel https://kaholas-frontend-assignment.vercel.app/
 
 ### Used Technology
 
