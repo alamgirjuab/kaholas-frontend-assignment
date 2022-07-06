@@ -16,7 +16,7 @@ function App() {
       <div className='my-5'>
         <h1 className="fw-bold">Summer Art Camp! 5 Days of Artists and Painting Monet,
           <br /> Van Gogh, Matisse, & More</h1>
-        <small>Multi-Day Course</small>
+        <small className='text-secondary'>Multi-Day Course</small>
       </div>
       <div className="row">
         <div className='col-md-6'>
